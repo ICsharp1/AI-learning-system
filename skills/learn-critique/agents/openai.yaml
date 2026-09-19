@@ -1,0 +1,13 @@
+interface:
+  display_name: Curriculum Critic
+  short_description: Check curriculum coverage and prerequisites
+  default_prompt: Use $learn-critique to help with my learning project.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

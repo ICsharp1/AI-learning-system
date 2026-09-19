@@ -1,0 +1,13 @@
+interface:
+  display_name: Learning Session
+  short_description: Start or resume a structured learning session
+  default_prompt: Use $learn-session to help with my learning project.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

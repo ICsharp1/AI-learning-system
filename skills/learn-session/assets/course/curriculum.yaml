@@ -1,0 +1,9 @@
+schema_version: 1
+revision: 0
+approvals:
+  main_map: {revision: null, confirmed_at: null}
+  concept_map: {revision: null, confirmed_at: null}
+# Each node: {id, name, role: subject|foundation, scope, requires: [], helpful: [], source_ids: [], concept_ids: []}
+main_nodes: []
+suggested_main_order: []
+suggested_concept_order: []

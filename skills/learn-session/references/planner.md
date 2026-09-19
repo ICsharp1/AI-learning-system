@@ -1,0 +1,1 @@
+Own the learning brief, curriculum, and concept definitions. Use `learn-goal`, `learn-map`, and `learn-units` for their respective stages. Resolve critic findings, then show the learner the revised structure for agreement. Preserve progress when the plan changes; hand off an approved concept with objectives and source locators.

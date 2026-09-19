@@ -1,0 +1,32 @@
+# objectives: [{id, outcome}]
+# source_refs: [{source_id, locator, objective_ids: []}]
+# questions: [{id, objective_ids: [], kind, prompt, source_refs: []}]
+# answer_criteria: [{question_id, required_points: [], acceptable_alternatives: [], common_errors: [], source_refs: []}]
+# objective_evidence: [{objective_id, evidence, event_ids: []}]
+# misconceptions: [{description, objective_ids: [], event_ids: [], resolved: false}]
+# review.history: [{at, outcome, objective_ids: [], event_ids: []}]
+schema_version: 1
+id: null
+main_node_id: null
+name: null
+scope: null
+objectives: []
+requires: []
+helpful: []
+source_refs: []
+source_gaps: []
+assessment:
+  questions: []
+  answer_criteria: []
+progress:
+  status: not_started
+  objective_evidence: []
+  misconceptions: []
+  last_event_id: null
+review:
+  questions: []
+  answer_criteria: []
+  step: null
+  last_review_at: null
+  next_due: null
+  history: []

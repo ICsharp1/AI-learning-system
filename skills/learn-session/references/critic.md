@@ -1,0 +1,1 @@
+Assess the proposed curriculum independently against the agreed goal and source coverage using `learn-critique`. Receive the actual brief, map, concepts, and sources, not the planner’s desired verdict. Write findings only. Return blockers and the smallest useful fixes to the planner; technical review does not replace learner agreement.

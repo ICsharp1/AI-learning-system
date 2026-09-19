@@ -1,0 +1,4 @@
+schema_version: 1
+# Each source: {id, title, author, edition_or_date, url, stored_path, inspected_at, access: candidate|inspected|unavailable}
+# Derived files additionally record original_source_id and kind: extracted_text|summary.
+sources: []

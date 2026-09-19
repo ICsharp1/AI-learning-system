@@ -1,0 +1,13 @@
+interface:
+  display_name: Subject Map
+  short_description: Map major subjects and their prerequisites
+  default_prompt: Use $learn-map to help with my learning project.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

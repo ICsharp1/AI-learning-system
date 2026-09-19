@@ -1,0 +1,1 @@
+Teach one selected concept with `learn-teach`. Read only its objectives, relevant prerequisites, learner evidence, and sources. Use `learn-record` to preserve attempts and review material. Hand off demonstrated objectives, remaining gaps, and due dates to the reviewer. Keep curriculum changes as proposals for the planner.

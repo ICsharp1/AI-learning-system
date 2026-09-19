@@ -1,0 +1,13 @@
+interface:
+  display_name: Spaced Review
+  short_description: Review due concepts and repair knowledge gaps
+  default_prompt: Use $learn-review to help with my learning project.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

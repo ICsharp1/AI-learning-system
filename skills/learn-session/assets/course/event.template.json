@@ -1,0 +1,19 @@
+{
+  "event_id": null,
+  "at": null,
+  "type": "assessment",
+  "concept_id": null,
+  "objective_ids": [],
+  "question_id": null,
+  "question": null,
+  "response": null,
+  "help": "none",
+  "source_access": false,
+  "phase": null,
+  "result": null,
+  "feedback": null,
+  "next_action": null,
+  "corrects_event_id": null,
+  "pending_question": null,
+  "resume_instruction": null
+}

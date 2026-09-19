@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Learning System
 
-## Getting Started
+A small set of agent instructions for learning an entire subject, from defining the goal to curriculum design, interactive lessons, and spaced review. Built initially around neuroscience, usable for other subjects.
 
-First, run the development server:
+## Start with Codex or OpenCode
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Give your agent this repository's URL and say:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Clone this repository, read AGENTS.md, and use it to help me learn neuroscience. Start by understanding my goal and background.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Or clone it yourself, open the folder in your agent, and say:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> Read AGENTS.md and start a learning session.
 
-## Learn More
+No package install or application server is needed. The agent needs file access and a way to inspect credible source material. These are Markdown workflows; an agent can read them directly even without native skill discovery. Platform-specific agent registration is not included.
 
-To learn more about Next.js, take a look at the following resources:
+## What happens
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clarify your purpose, scope, background, and desired ability.
+2. Map main subjects and prerequisites; critique the map and get your agreement.
+3. Expand subjects into ordered concepts with objectives and sources; critique and agree again.
+4. Teach one concept through short explanations, questions, hints, and independent checks.
+5. Save actual evidence and review concepts in later sessions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Skill | Responsibility |
+| --- | --- |
+| `learn-session` | Coordinate and resume |
+| `learn-goal` | Define the destination |
+| `learn-map` | Map subjects and prerequisites |
+| `learn-units` | Design concepts and objectives |
+| `learn-critique` | Check curriculum quality |
+| `learn-teach` | Teach and assess a concept |
+| `learn-record` | Persist evidence and checkpoints |
+| `learn-review` | Review and repair gaps |
 
-## Deploy on Vercel
+The four role profiles and shared state contract live under `skills/learn-session/references/`. Blank course templates live under `skills/learn-session/assets/course/`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Your learning data
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Each course normally lives in `courses/<course-id>/`, with its curriculum, sources, per-concept progress, attempt history, and exact resume point. That directory is ignored by Git; keep a personal backup. Say “Resume my neuroscience course” to continue from its files.
+
+Sources are verified before teaching and stored once when permitted. The repo includes no textbooks or learner history. Review dates are checked when you start a session; no background reminders are installed. The initial 1/3/7/14/30-day schedule is a configurable V1 heuristic.
+
+## Design
+
+Small composable skills, concise entry points, and shared rules stored once, informed by [Matt Pocock's writing-for-agents guide](https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-for-agents/SKILL.md). See [design basis](skills/learn-session/references/design-basis.md).
+
+V1: iterate from real learning sessions. File structure and instruction flow have been checked; end-to-end behavior depends on the agent and its available tools.
