@@ -1,4 +1,4 @@
-# objectives: [{id, outcome}]
+# objectives: [{id, outcome, kind: knowledge|skill|transfer}]
 # source_refs: [{source_id, locator, objective_ids: []}]
 # questions: [{id, objective_ids: [], kind, prompt, source_refs: []}]
 # answer_criteria: [{question_id, required_points: [], acceptable_alternatives: [], common_errors: [], source_refs: []}]
