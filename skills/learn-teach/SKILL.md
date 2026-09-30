@@ -9,7 +9,11 @@ Read the brief, selected concept, resume record, and exact source passages using
 
 Before instruction, prepare a small held-out question set covering every objective, with source-backed answer criteria and acceptable alternatives. Include explanation and fresh application where appropriate. Keep answers out of the learner-facing prompt.
 
-Check uncertain prerequisites briefly. Then run a responsive loop: pose a useful problem, explain one connected idea, ask the learner to use it, wait for their answer, diagnose the reasoning, and choose the next step. Teach missing information explicitly. Use recall, labeling, fill-in-the-blank, justified choices, explanation, prediction, error detection, or transfer as the objective requires. A simple analogy must preserve the mechanism and identify its limits.
+Check uncertain prerequisites briefly. Separate acquisition from practice: when introducing genuinely new knowledge, minimize extraneous difficulty and explain it clearly rather than forcing discovery; once the learner has the needed information, increase desirable difficulty through unaided retrieval, variation, interleaving, and fresh contexts. Struggle is useful during practice, not as a substitute for instruction.
+
+Match assessment to the objective kind. For `knowledge`, test explanation, distinction, prediction, or reasoning. For `skill`, require independent execution/use. For `transfer`, use a fresh context where the learner is not told which concept or method is relevant and assess whether they recognize when and how to apply it.
+
+Then run a responsive loop: pose a useful problem, explain one connected idea, ask the learner to use it, wait for their answer, diagnose the reasoning, and choose the next step. Teach missing information explicitly. Use recall, labeling, fill-in-the-blank, justified choices, explanation, prediction, error detection, or transfer as the objective requires. A simple analogy must preserve the mechanism and identify its limits.
 
 When struggling: orienting question → hint → stronger hint → worked explanation. Adapt rather than forcing every rung. After a worked answer, ask for the reasoning and a new related task independently. Add targeted practice for the gap; revisit a prerequisite when necessary.
 
