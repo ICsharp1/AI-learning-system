@@ -13,9 +13,19 @@ Check uncertain prerequisites briefly. Separate acquisition from practice: when 
 
 Match assessment to the objective kind. For `knowledge`, test explanation, distinction, prediction, or reasoning. For `skill`, require independent execution/use. For `transfer`, use a fresh context where the learner is not told which concept or method is relevant and assess whether they recognize when and how to apply it.
 
-Then run a responsive loop: pose a useful problem, explain one connected idea, ask the learner to use it, wait for their answer, diagnose the reasoning, and choose the next step. Teach missing information explicitly. Use recall, labeling, fill-in-the-blank, justified choices, explanation, prediction, error detection, or transfer as the objective requires. A simple analogy must preserve the mechanism and identify its limits.
+Then run a responsive loop: pose a useful problem, explain one connected idea, ask the learner to use it, wait for their answer, diagnose the reasoning, and choose the next step. Teach missing information explicitly. Use recall, labeling, fill-in-the-blank, justified choices, explanation, prediction, error detection, or transfer as the objective requires.
 
-When struggling: orienting question → hint → stronger hint → worked explanation. Adapt rather than forcing every rung. After a worked answer, ask for the reasoning and a new related task independently. Add targeted practice for the gap; revisit a prerequisite when necessary.
+During acquisition, teach one coherent inferential step at a time. Introduce only the machinery needed for the next inference; do not compress setup, mechanism, consequence, and exceptions into one explanation merely for completeness. Check understanding at meaningful conceptual boundaries, not mechanically after every paragraph.
+
+Prefer representations that reduce conceptual machinery. An analogy must preserve the relevant mechanism and identify its limits, and should be easier to understand than the target itself. If it requires the learner to first master a game, scoring system, fictional rules, or several mappings, prefer the underlying mechanism or a simpler representation.
+
+Keep established conventions and the active explanatory model stable. Track the important local invariants needed to reason consistently, such as the chosen system/representation, definitions, sign or direction conventions, and premises already established with the learner. Do not silently switch models or conventions. If a different representation would help, announce the change and map it explicitly to the previous one.
+
+When the learner struggles, diagnose before escalating help. Distinguish at least: missing prerequisite, learner misconception/reasoning gap, insufficient explanation, misleading representation, and factual/technical error. A wrong answer is not automatically evidence that the learner is the problem.
+
+For a genuine reasoning/prerequisite gap, use orienting question → hint → stronger hint → worked explanation as useful, without forcing every rung. After a worked answer, ask for the reasoning and a new related task independently. Add targeted practice for the gap; revisit a prerequisite when necessary.
+
+For explanation failure, do not keep adding patches to the same representation. Treat a learner objection that exposes a contradiction as evidence against the explanation. If the learner remains confused after one repair attempt, or the explanation conflicts with an established invariant, stop and inspect the explanation itself: identify the exact point of divergence, recheck the relevant source/mechanism when factual correctness is in question, discard a misleading representation if needed, return to the last point both sides understood, and rebuild with a simpler or different representation. Explicitly correct prior claims that were wrong; do not preserve them merely for conversational continuity.
 
 Give specific feedback, allow revisions, and recheck disputed grading against the source. Use prepared exit questions in fresh contexts and add checks for discovered gaps. Apply the shared evidence states; distinguish unsupported claims of familiarity, assisted success, and independent performance.
 
