@@ -7,7 +7,7 @@ Read the `learn-session` skill’s `references/state.md` before reading or chang
 
 Read the approved main map and learning brief. Process each main node within its agreed scope.
 
-Define concept units with stable IDs, observable objectives, essential prerequisites, helpful links, and exact source locators. Link shared prerequisites across main nodes. Each unit should support a coherent explanation and meaningful practice; split units whose objectives need substantially different lessons.
+Define concept units with stable IDs, observable objectives, essential prerequisites, helpful links, and exact source locators. Classify each objective by its primary learning demand: `knowledge` (explain, distinguish, predict, or reason about the idea), `skill` (perform or use it independently when the relevant method is apparent), or `transfer` (recognize when and how to use it in a fresh or messy context without being told the target concept). Use `transfer` only where the learning goal genuinely requires it; do not force trivial facts or vocabulary into artificial transfer tasks. Link shared prerequisites across main nodes. Each unit should support a coherent explanation and meaningful practice; split units whose objectives need substantially different lessons.
 
 Write one `concepts/<id>.yaml` record per unit from the shared template, and list its ID under the parent node. Inspect source sections for coverage; label unmapped objectives as source gaps. Sources may be completed just before teaching, but make gaps visible to the critic. Preserve existing learning evidence during revisions.
 
