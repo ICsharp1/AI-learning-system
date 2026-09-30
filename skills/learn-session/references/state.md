@@ -18,7 +18,7 @@ Load only the records needed for the current action. `assets/course/` contains i
 
 Use stable lowercase IDs for nodes, concepts, objectives, questions, sources, and events. Essential prerequisite edges mean “requires”; helpful links do not block study. Main-node dependencies guide ordering; concept prerequisites determine readiness for a particular lesson. Validate cross-node concept dependencies explicitly. Never recycle IDs for changed meanings.
 
-Concept `status`: `not_started`, `learning`, `demonstrated`, `retained`, or `needs_review`. Objective `evidence`: `unassessed`, `assisted`, `independent`, `delayed_independent`, or `needs_review`.
+Each objective has a `kind`: `knowledge`, `skill`, or `transfer`, describing what successful performance requires; this does not create a separate progress scale. Concept `status`: `not_started`, `learning`, `demonstrated`, `retained`, or `needs_review`. Objective `evidence`: `unassessed`, `assisted`, `independent`, `delayed_independent`, or `needs_review`.
 
 `demonstrated` requires independent evidence meeting the prepared criteria for every objective; cover explanation and novel application where the objective permits. Correctness after a hint/worked answer is assisted until a fresh unaided task succeeds. `retained` requires delayed independent evidence for every objective. A failed review changes affected objectives to `needs_review`; earlier evidence remains in history. A diagnostic can supply readiness evidence, with its origin recorded. Self-report alone cannot silently waive a prerequisite; a learner may explicitly choose to proceed despite a gap.
 
